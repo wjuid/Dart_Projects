@@ -1,0 +1,32 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "js",
+      "rootUri": "file:///C:/Users/wjuid/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/js-0.6.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "meta",
+      "rootUri": "file:///C:/Users/wjuid/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/meta-1.11.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "vector_math",
+      "rootUri": "file:///C:/Users/wjuid/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/vector_math-2.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "assembly.room",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    }
+  ],
+  "generated": "2023-12-04T11:11:54.857467Z",
+  "generator": "pub",
+  "generatorVersion": "3.2.2"
+}

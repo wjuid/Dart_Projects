@@ -1,0 +1,11 @@
+name: tree_project
+description: A simple tree application.
+
+version:  1.0.0
+
+environment: 
+  sdk: ^3.0.0
+
+dependencies:
+  lints: ^2.0.0
+  test:  ^1.21.0
