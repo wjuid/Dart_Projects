@@ -1,4 +1,5 @@
 import 'package:BinaryTrees/binary_node.dart';
+import 'package:BinaryTrees/binary_search_tree.dart';
 
 BinaryNode<int> createBinaryTree() {
   final zero = BinaryNode(0);
@@ -16,7 +17,22 @@ BinaryNode<int> createBinaryTree() {
   return seven;
 }
 
+BinarySearchTree<int> buildExampleTree() {
+  var tree = BinarySearchTree<int>();
+  tree.insert(3);
+  tree.insert(1);
+  tree.insert(4);
+  tree.insert(0);
+  tree.insert(2);
+  tree.insert(5);
+  return tree;
+}
+
 void main() {
-  final tree = createBinaryTree();
-  tree.traversePostOrder(print);
+  final tree = buildExampleTree();
+  print('Tree before removal:');
+  print(tree);
+  tree.remove(3);
+  print('Tree after removing root:');
+  print(tree);
 }
