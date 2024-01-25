@@ -1,0 +1,14 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "avlTrees",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    }
+  ],
+  "generated": "2024-01-25T12:19:25.692935Z",
+  "generator": "pub",
+  "generatorVersion": "3.2.5"
+}
